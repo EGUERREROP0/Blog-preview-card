@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- !Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    html,
+    body {
+      height: 100%;
+      background-color: hsl(47, 88%, 63%);
+      font-family: '/assets/fonts/Figtree-VariableFont_wght.ttf';
+    }
+
+    .container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background-color: hsl(0, 0%, 100%);
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      border: 1px solid;
+      box-shadow: 10px 10px rgba(12, 11, 11, 0.5);
+      .cardImg {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        
+      }
+    }
+
+    .card h1 {
+      font-size: 25px;
+    }
+    .card h1:hover {
+      font-size: 25px;
+      color:hsl(47, 88%, 63%);
+      cursor: pointer;
+    }
+
+    div .button {
+      background: hsl(47, 88%, 63%);
+      border: 0;
+      font-weight: bold;
+      font-family: 16px;
+      width: 50%;
+      text-align: center;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 40px;
+      }
+
+      h4 {
+        margin-left: 10px;
+      }
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="card">
+      <div>
+        <img class="cardImg" src="./assets/images/illustration-article.svg" alt="">
+      </div>
+      <div>
+        <button class="button" type="button">Learning</button>
+        <p>Published 6 Nov 2024</p>
+      </div>
+
+      <div>
+        <h1>HTML & CSS fundations</h1>
+        <p>These lenguages are the backbone of every website, defining structure, content, and presentation</p>
+      </div>
+      <div class="footer">
+        <img src="./assets/images/image-avatar.webp" alt="">
+        <h4>Greg Hooper</h4>
+      </div>
+
+
+    </div>
+
+  </div>
+</body>
+
+</html>
